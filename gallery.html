@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Zaytoona Restaurant</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <div class="logo-icon">
+                        <img src="images/Olive Green and Lime Organic Illustrative Olive Oil Label.png" alt="Zaytoona Olive Oil Logo">
+                    </div>
+                    <div class="logo-text">
+                        <h1>Zaytoona</h1>
+                        <span>Restaurant</span>
+                    </div>
+                </div>
+                <nav class="nav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="gallery.html" class="active">Gallery</a></li>
+                        <li><a href="reservation.html">Reserve</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="mobile-menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+    <!-- Gallery Section -->
+    <section class="gallery-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Lovely Gallery</h2>
+                <p class="section-subtitle">From appetizers to desserts, each dish tells a story of tradition and innovation</p>
+            </div>
+            
+            <div class="gallery-grid">
+                <!-- Appetizers -->
+                <div class="gallery-item" data-category="appetizers">
+                    <img src="images/appetizers/chickpea-hummus-rustic-wooden-table.jpg" alt="Chickpea Hummus">
+                    <div class="gallery-overlay">
+                        <h3>Chickpea Hummus</h3>
+                        <p>Classic hummus made from chickpeas, tahini, and olive oil.</p>
+                        <span class="gallery-price">$7</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="appetizers">
+                    <img src="images/appetizers/front-view-tasty-leaf-dolma-with-tomatoes-dark-background-calorie-oil-dinner-food-salad-dish-meat-restaurant-meal.jpg" alt="Leaf Dolma">
+                    <div class="gallery-overlay">
+                        <h3>Leaf Dolma</h3>
+                        <p>Stuffed grape leaves with rice and herbs, served with tomatoes.</p>
+                        <span class="gallery-price">$8</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="appetizers">
+                    <img src="images/appetizers/top-view-delicious-fries-sauce.jpg" alt="Fries with Sauce">
+                    <div class="gallery-overlay">
+                        <h3>Fries with Sauce</h3>
+                        <p>Golden fries served with a delicious dipping sauce.</p>
+                        <span class="gallery-price">$6</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="appetizers">
+                    <img src="images/appetizers/tabbouleh-salad.jpg" alt="Tabbouleh Salad">
+                    <div class="gallery-overlay">
+                        <h3>Tabbouleh Salad</h3>
+                        <p>Fresh parsley, tomatoes, and bulgur wheat salad.</p>
+                        <span class="gallery-price">$7</span>
+                    </div>
+                </div>
+                <!-- Main Courses -->
+                <div class="gallery-item" data-category="main-courses">
+                    <img src="images/main courses/falafel-plate.jpg" alt="Falafel Plate">
+                    <div class="gallery-overlay">
+                        <h3>Falafel Plate</h3>
+                        <p>Classic falafel served with fresh vegetables and tahini sauce.</p>
+                        <span class="gallery-price">$12</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="main-courses">
+                    <img src="images/main courses/Red Minimalist Special Promo Pasta Instagram Post.png" alt="Special Pasta">
+                    <div class="gallery-overlay">
+                        <h3>Special Pasta</h3>
+                        <p>Handcrafted pasta with rich tomato sauce and fresh herbs.</p>
+                        <span class="gallery-price">$16</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="main-courses">
+                    <img src="images/main courses/Brown and Yellow New Menu Burger Instagram Post.png" alt="Gourmet Burger">
+                    <div class="gallery-overlay">
+                        <h3>Gourmet Burger</h3>
+                        <p>Juicy beef burger with fresh toppings and golden fries.</p>
+                        <span class="gallery-price">$15</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="main-courses">
+                    <img src="images/main courses/fried-chicken-with-potatoes-table.jpg" alt="Fried Chicken with Potatoes">
+                    <div class="gallery-overlay">
+                        <h3>Fried Chicken with Potatoes</h3>
+                        <p>Crispy fried chicken served with seasoned potatoes.</p>
+                        <span class="gallery-price">$18</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="main-courses">
+                    <img src="images/main courses/various-kebab-with-rice-vegetables.jpg" alt="Kebab with Rice & Vegetables">
+                    <div class="gallery-overlay">
+                        <h3>Kebab with Rice & Vegetables</h3>
+                        <p>Assorted kebabs served with fragrant rice and vegetables.</p>
+                        <span class="gallery-price">$20</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="main-courses">
+                    <img src="images/main courses/grilled-chicken-with-fried-potatoes.jpg" alt="Grilled Chicken">
+                    <div class="gallery-overlay">
+                        <h3>Grilled Chicken</h3>
+                        <p>Grilled chicken breast with crispy potatoes and herbs.</p>
+                        <span class="gallery-price">$17</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="main-courses">
+                    <img src="images/main courses/side-view-shawarma-pita-roll-with-chicken-fried-potatoes.jpg" alt="Chicken Shawarma Roll">
+                    <div class="gallery-overlay">
+                        <h3>Chicken Shawarma Roll</h3>
+                        <p>Shawarma roll with chicken, fries, and garlic sauce.</p>
+                        <span class="gallery-price">$14</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="main-courses">
+                    <img src="images/main courses/side-view-shawarma-with-fried-potatoes-board-cookware.jpg" alt="Shawarma with Potatoes">
+                    <div class="gallery-overlay">
+                        <h3>Shawarma with Potatoes</h3>
+                        <p>Shawarma served with golden fried potatoes.</p>
+                        <span class="gallery-price">$15</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="main-courses">
+                    <img src="images/main courses/slice-crispy-pizza-with-meat-cheese.jpg" alt="Crispy Pizza">
+                    <div class="gallery-overlay">
+                        <h3>Crispy Pizza</h3>
+                        <p>Pizza with meat, cheese, and a crispy crust.</p>
+                        <span class="gallery-price">$13</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="main-courses">
+                    <img src="images/main courses/chicken-skewers-with-slices-apples-chili.jpg" alt="Chicken Skewers">
+                    <div class="gallery-overlay">
+                        <h3>Chicken Skewers</h3>
+                        <p>Grilled chicken skewers with apple slices and chili.</p>
+                        <span class="gallery-price">$16</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="main-courses">
+                    <img src="images/main courses/side-view-plate-with-cooked-rice-with-parsley-table.jpg" alt="Rice with Parsley">
+                    <div class="gallery-overlay">
+                        <h3>Rice with Parsley</h3>
+                        <p>Cooked rice garnished with fresh parsley.</p>
+                        <span class="gallery-price">$10</span>
+                    </div>
+                </div>
+                <!-- Salads -->
+                <div class="gallery-item" data-category="salads">
+                    <img src="images/salads/traditional-russian-salad-olivier.jpg" alt="Russian Salad Olivier">
+                    <div class="gallery-overlay">
+                        <h3>Russian Salad Olivier</h3>
+                        <p>Traditional Russian salad with potatoes, peas, and carrots.</p>
+                        <span class="gallery-price">$8</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="salads">
+                    <img src="images/salads/salad-tomatoes-lettuce-soy-sauce-table.jpg" alt="Tomato Lettuce Salad">
+                    <div class="gallery-overlay">
+                        <h3>Tomato Lettuce Salad</h3>
+                        <p>Fresh salad with tomatoes and lettuce.</p>
+                        <span class="gallery-price">$7</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="salads">
+                    <img src="images/salads/choban-shepherd-salad-with-tomato-cucumber-herbs-lemon.jpg" alt="Shepherd Salad">
+                    <div class="gallery-overlay">
+                        <h3>Shepherd Salad</h3>
+                        <p>Fresh vegetables with lemon and olive oil.</p>
+                        <span class="gallery-price">$7</span>
+                    </div>
+                </div>
+                <!-- Desserts -->
+                <div class="gallery-item" data-category="desserts">
+                    <img src="images/deserts/bowl-fresh-fruit-salad-with-watermelon-strawberries-blueberries-grapes-kiwi-pineapple.jpg" alt="Fruit Salad">
+                    <div class="gallery-overlay">
+                        <h3>Fruit Salad</h3>
+                        <p>Fresh fruit salad with a variety of seasonal fruits.</p>
+                        <span class="gallery-price">$6</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="desserts">
+                    <img src="images/deserts/Cream and Brown Cake Tips Instagram Story.png" alt="Chocolate Cake">
+                    <div class="gallery-overlay">
+                        <h3>Chocolate Cake</h3>
+                        <p>Rich chocolate cake with creamy frosting.</p>
+                        <span class="gallery-price">$7</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="desserts">
+                    <img src="images/deserts/قصة انستقرام instagram مخبز كوكيز بني بيج بسيط .png" alt="Cookie Dessert">
+                    <div class="gallery-overlay">
+                        <h3>Cookie Dessert</h3>
+                        <p>Soft and chewy cookie dessert.</p>
+                        <span class="gallery-price">$5</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="desserts">
+                    <img src="images/deserts/azerbaijani-guru-khingal-caucasian-pasta-with-meat-fried-onion.jpg" alt="Azerbaijani Guru Khingal">
+                    <div class="gallery-overlay">
+                        <h3>Azerbaijani Guru Khingal</h3>
+                        <p>Traditional Azerbaijani pasta with meat and onions.</p>
+                        <span class="gallery-price">$8</span>
+                    </div>
+                </div>
+                <!-- Drinks -->
+                <div class="gallery-item" data-category="drinks">
+                    <img src="images/drinks/3888.jpg" alt="Iced Tea">
+                    <div class="gallery-overlay">
+                        <h3>Iced Tea</h3>
+                        <p>Refreshing iced tea served cold.</p>
+                        <span class="gallery-price">$3</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="drinks">
+                    <img src="images/drinks/ayat_hamed_alot_of_glasses_with_different_fruit_juice_4696c92f-0379-4fed-b8b9-695b9c793f5d.png" alt="Fruit Juices">
+                    <div class="gallery-overlay">
+                        <h3>Fruit Juices</h3>
+                        <p>Assorted fresh fruit juices.</p>
+                        <span class="gallery-price">$4</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="drinks">
+                    <img src="images/drinks/large-glass-strawberry-milkshake-with-colorful-straws.jpg" alt="Strawberry Milkshake">
+                    <div class="gallery-overlay">
+                        <h3>Strawberry Milkshake</h3>
+                        <p>Creamy strawberry milkshake with colorful straws.</p>
+                        <span class="gallery-price">$5</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="drinks">
+                    <img src="images/drinks/Blue Modern Ice Coffee Your Story.png" alt="Iced Coffee">
+                    <div class="gallery-overlay">
+                        <h3>Iced Coffee</h3>
+                        <p>Chilled coffee beverage served over ice.</p>
+                        <span class="gallery-price">$4</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="instagram-feed">
+        <div class="container">
+            <h2 class="section-title">Follow Our Journey</h2>
+            <p class="section-subtitle">See more of our daily creations on Instagram</p>
+            <div class="instagram-grid">
+                <div class="instagram-item">
+                    <img src="images/main courses/fried-chicken-with-potatoes-table.jpg" alt="Instagram Post">
+                    <div class="instagram-overlay">
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                </div>
+                <div class="instagram-item">
+                    <img src="images/main courses/various-kebab-with-rice-vegetables.jpg" alt="Instagram Post">
+                    <div class="instagram-overlay">
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                </div>
+                <div class="instagram-item">
+                    <img src="images/main courses/grilled-chicken-with-fried-potatoes.jpg" alt="Instagram Post">
+                    <div class="instagram-overlay">
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                </div>
+                <div class="instagram-item">
+                    <img src="images/main courses/side-view-shawarma-pita-roll-with-chicken-fried-potatoes.jpg" alt="Instagram Post">
+                    <div class="instagram-overlay">
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                </div>
+                <div class="instagram-item">
+                    <img src="images/main courses/slice-crispy-pizza-with-meat-cheese.jpg" alt="Instagram Post">
+                    <div class="instagram-overlay">
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="instagram-cta">
+                <a href="#" class="btn btn-primary">
+                    <i class="fab fa-instagram"></i>
+                    Follow @zaytoona_restaurant
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Zaytoona Restaurant</h3>
+                    <p>Bringing authentic Middle Eastern cuisine to your table since 2010.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-phone"></i> (555) 123-4567</p>
+                    <p><i class="fas fa-envelope"></i> info@zaytoona.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Olive Street, City</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Hours</h4>
+                    <p>Mon-Thu: 11:00 AM - 10:00 PM</p>
+                    <p>Fri-Sat: 11:00 AM - 11:00 PM</p>
+                    <p>Sunday: 12:00 PM - 9:00 PM</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Zaytoona Restaurant. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
